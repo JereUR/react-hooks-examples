@@ -26,6 +26,7 @@ export default function HookUseState() {
 
   return (
     <div>
+      <h1 style={{ textDecoration: 'underline' }}>UseState Hook</h1>
       <div>
         <h2>With Numbers</h2>
         <h4>Count:{count}</h4>
@@ -80,6 +81,8 @@ export default function HookUseState() {
           Clear List
         </button>
       </div>
+      <br />
+      <hr />
     </div>
   )
 }
