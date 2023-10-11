@@ -3,4 +3,6 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+
+  --title-color: rgb(90, 100, 220);
 }
