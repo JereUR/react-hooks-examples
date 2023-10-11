@@ -26,7 +26,9 @@ export default function HookUseState() {
 
   return (
     <div>
-      <h1 style={{ textDecoration: 'underline' }}>UseState Hook</h1>
+      <h1 style={{ textDecoration: 'underline', color: 'var(--title-color)' }}>
+        UseState Hook
+      </h1>
       <div>
         <h2>With Numbers</h2>
         <h4>Count:{count}</h4>
