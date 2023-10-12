@@ -42,7 +42,7 @@ export default function HookUseState() {
         <button onClick={increment5}>+5</button>
       </div>
       <br />
-      <hr />
+      <hr style={{ opacity: 0.2 }} />
       <div>
         <h2>With Objects</h2>
         <form>
@@ -67,7 +67,7 @@ export default function HookUseState() {
         </form>
       </div>
       <br />
-      <hr />
+      <hr style={{ opacity: 0.2 }} />
       <div>
         <h2>With Array</h2>
         <button onClick={addItem}>Add a number</button>
