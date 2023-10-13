@@ -26,11 +26,9 @@ export default function HookUseState() {
 
   return (
     <div>
-      <h1 style={{ textDecoration: 'underline', color: 'var(--title-color)' }}>
-        UseState Hook
-      </h1>
+      <h1>UseState Hook</h1>
       <div>
-        <h2 style={{ fontStyle: 'italic' }}>With Numbers</h2>
+        <h2>With Numbers</h2>
         <h4>Count:{count}</h4>
         <button onClick={() => setCount(initialCount)}>Reset</button>
         <button onClick={() => setCount((prevCount) => prevCount + 1)}>
@@ -44,7 +42,7 @@ export default function HookUseState() {
       <br />
       <hr style={{ opacity: 0.2 }} />
       <div>
-        <h2 style={{ fontStyle: 'italic' }}>With Objects</h2>
+        <h2>With Objects</h2>
         <form>
           <input
             type="text"
@@ -69,7 +67,7 @@ export default function HookUseState() {
       <br />
       <hr style={{ opacity: 0.2 }} />
       <div>
-        <h2 style={{ fontStyle: 'italic' }}>With Array</h2>
+        <h2>With Array</h2>
         <button onClick={addItem}>Add a number</button>
         <ul>
           {items.map((item) => (
