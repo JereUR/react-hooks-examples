@@ -49,6 +49,8 @@ export default function HookUseEffect() {
         <h2>Data Fetching</h2>
         <DataFetching />
       </div>
+      <br />
+      <hr />
     </div>
   )
 }
