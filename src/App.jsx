@@ -1,5 +1,5 @@
 import './App.css'
-import HookUseEffect from './components/HookUseEffect'
+import HookUseEffect from './components/HookUseEffect/HookUseEffect'
 import HookUseState from './components/HookUseState'
 
 function App() {
