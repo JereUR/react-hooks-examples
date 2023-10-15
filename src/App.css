@@ -9,6 +9,11 @@
 
 button {
   cursor: pointer;
+  margin: 2px;
+}
+
+input {
+  margin: 2px;
 }
 
 h1 {
