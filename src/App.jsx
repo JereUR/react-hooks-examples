@@ -3,6 +3,7 @@ import './App.css'
 import ComponentA from './components/HookUseContext/ComponentA'
 import HookUseEffect from './components/HookUseEffect/HookUseEffect'
 import HookUseState from './components/HookUseState'
+import HookUseReducer from './components/HookUseReducer/HookUseReducer'
 
 export const UserContext = createContext()
 export const ChannelContext = createContext()
@@ -17,6 +18,7 @@ function App() {
           <ComponentA />
         </ChannelContext.Provider>
       </UserContext.Provider>
+      <HookUseReducer />
     </>
   )
 }
