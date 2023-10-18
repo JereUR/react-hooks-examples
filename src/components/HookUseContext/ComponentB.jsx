@@ -11,6 +11,8 @@ export default function ComponentB() {
     <div>
       <h3>With useContext from ComponentB:</h3>
       User context value: {user} - Channel context value: {channel}
+      <br />
+      <hr className="semi-hr" />
       <ComponentC />
     </div>
   )

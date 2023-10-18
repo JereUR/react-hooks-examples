@@ -31,6 +31,8 @@ export default function HookUseEffect() {
           Click {count} times
         </button>
       </div>
+      <br />
+      <hr className="semi-hr" />
       <div>
         <h2>Mouse position</h2>
         <button onClick={() => setDisplay(!display)}>
@@ -38,6 +40,8 @@ export default function HookUseEffect() {
         </button>
         {display && <MouseEvent />}
       </div>
+      <br />
+      <hr className="semi-hr" />
       <div>
         <h2>Interval Counter</h2>
         <button onClick={() => setCounter(!counter)}>
@@ -45,6 +49,8 @@ export default function HookUseEffect() {
         </button>
         {counter && <IntervalCounter />}
       </div>
+      <br />
+      <hr className="semi-hr" />
       <div>
         <h2>Data Fetching</h2>
         <DataFetching />
