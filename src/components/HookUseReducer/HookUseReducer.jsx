@@ -5,6 +5,8 @@ import CounterOne from './CounterOne'
 import ComponentA from './ComponentA'
 import ComponentB from './ComponentB'
 import ComponentC from './ComponentC'
+import DataFetchingOne from './DataFetchingOne'
+import DataFetchingTwo from './DataFetchingTwo'
 
 export const CountContext = createContext()
 
@@ -30,7 +32,11 @@ export default function HookUseReducer() {
     <div>
       <h1>UseReducer Hook</h1>
       <CounterOne />
+      <br />
+      <hr className="semi-hr" />
       <CounterTwo />
+      <br />
+      <hr className="semi-hr" />
       <CountContext.Provider
         value={{ countState: count, countDispatch: dispatch }}
       >
@@ -42,6 +48,10 @@ export default function HookUseReducer() {
           <ComponentC />
         </div>
       </CountContext.Provider>
+      <br />
+      <hr className="semi-hr" />
+      <DataFetchingOne />
+      <DataFetchingTwo />
       <br />
       <hr />
     </div>
