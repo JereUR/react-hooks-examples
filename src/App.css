@@ -25,6 +25,19 @@ h2 {
   font-style: italic;
 }
 
+.error-text {
+  color: red;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
 .semi-hr {
   opacity: 0.2;
+}
+
+.underline {
+  text-decoration: underline;
 }
