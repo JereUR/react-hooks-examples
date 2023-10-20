@@ -22,6 +22,9 @@ export default function HookUseCallback() {
       <Button handleClick={incrementAge}>Increment Age</Button>
       <Count text="Salary" count={salary} />
       <Button handleClick={incrementSalary}>Increment Salary</Button>
+      <br />
+      <br />
+      <hr />
     </div>
   )
 }
