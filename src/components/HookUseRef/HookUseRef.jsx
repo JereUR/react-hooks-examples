@@ -9,6 +9,8 @@ export default function HookUseRef() {
       <FocusInput />
       <ClassTimer />
       <HookTimer />
+      <br />
+      <hr />
     </div>
   )
 }
